@@ -1,20 +1,52 @@
-#include<stdio.h>
+#include<iostream.h>
 #include<conio.h>
+class one
+{
+public:
+int a;
+void set1()
+{
+ a=2;
+}
+void dis1()
+{
+   cout<<a;
+}
+};
+class two:public one
+{
+public:
+  int b;
+void set2()
+{
+ b=3;
+}
+void dis2()
+{
+   cout<<b;
+}
+};
+class three:public two
+{
+public:
+  int c;
+void set3()
+{
+ c=3;
+}
+void dis3()
+{
+   cout<<c;
+}
+};
 void main()
 {
-int a,b;
-clrscr();
-printf("enter the two numbers");
-scanf("%d %d",&a,&b);
-  if(b%a==0)
-{
-      printf("it is a multiple");
-}
-else
-{
-      printf("it is not a multiple");
-}
+three ob;
+ob.set1();
+ob.set2();
+ob.set3();
+ob.dis1();
+ob.dis2();
+ob.dis3();
 getch();
 }
-
-
