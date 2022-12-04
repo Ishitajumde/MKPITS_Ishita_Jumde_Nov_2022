@@ -1,47 +1,48 @@
 #include<iostream.h>
 #include<conio.h>
-class one
+class two
 {
 public:
-int a;
+ int b;
 void set1()
 {
- a=2;
+  b=3;
 }
 void dis1()
 {
-   cout<<a;
+  cout<<b;
 }
 };
-class two:public one
-{
-public:
-  int b;
-void set2()
-{
- b=3;
-}
-void dis2()
-{
-   cout<<b;
-}
-};
-class three:public two
+class three
 {
 public:
   int c;
-void set3()
+void set2()
 {
- c=3;
+  c=4;
 }
-void dis3()
+void dis2()
 {
-   cout<<c;
+  cout<<c;
 }
+};
+class one:public two,public three
+{
+public:
+ int a;
+ void set3()
+ {
+    a=2;
+ }
+ void dis3()
+  {
+    cout<<a;
+ }
 };
 void main()
 {
-three ob;
+clrscr();
+one ob;
 ob.set1();
 ob.set2();
 ob.set3();
@@ -50,3 +51,5 @@ ob.dis2();
 ob.dis3();
 getch();
 }
+
+
