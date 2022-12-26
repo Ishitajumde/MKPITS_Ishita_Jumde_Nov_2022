@@ -14,7 +14,7 @@ name=new char[len];
 one(char st[])
 {
  len=strlen(st);
- name=new char[len+1];
+ name=new char[len+1];//plus 1 is becoz string ends with null character
  strcpy(name,st);
 }
 void dis()
