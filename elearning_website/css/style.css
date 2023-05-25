@@ -1,0 +1,36 @@
+.collapse navbar-collapse{
+  margin-left: 50%;
+}
+.card-body{
+  background: rgba(135,206,235,0.3);
+  height: 250px;
+  width:70%;
+  margin-left: 100px;
+  /*animation: bounce;*/
+  /*animation-duration: 2s;*/
+}
+.carousel slide{
+  position: relative;
+}
+.card{
+  background-color: lightblue;
+  position: absolute;
+  margin-bottom: 100px;
+}
+.carousel-item active{
+  transition-duration: 0.2ms;
+}
+.learn{
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-item{
+  padding-left: 50px;;
+}
+#xyz{
+  height: 600px;
+  padding-top: 100px;
+}
+#abc{
+  height: 600px;
+}
