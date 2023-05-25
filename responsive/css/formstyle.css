@@ -1,0 +1,40 @@
+.name{
+  width:52%;
+}
+form{
+  border:2px solid seagreen;
+  width: 40%;
+  background-color: lightgreen;
+}
+.email{
+  width:64%;
+}
+.mob{
+  width:64%;
+}
+.stret{
+  width: 52%;
+}
+.city{
+  width:30%;
+}
+.pin{
+ width: 30%;
+}
+.date{
+  width: 64%;
+}
+.edu{
+  width: 64%;
+}
+.container{
+  /*//border:2px solid black;*/
+  margin-left: 100px;
+
+}
+.button{
+      height: 30px;
+      width: 30%;
+      margin-left: 80px;
+      border-radius: 10px;
+}

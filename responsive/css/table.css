@@ -1,0 +1,13 @@
+table{
+  alignment: center;
+  margin-top:50px ;
+}
+
+.heading{
+  height:30px;
+  width: 60px;
+  background-color: lavenderblush;
+}
+tr{
+  background-color: oldlace;
+}
