@@ -7,19 +7,20 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-<div class="container" th:height="500px" th:align="centre">
-   <form action="#" th:action="@{/addStudent}" th:object="${studentDetails}" method="post">
-     <label for="firstName" >First Name</label>
-     <input type="text" id="firstName"  th:field="*{}">
 
-     <label for="lastName" >High Fifty Week</label>
-     <input type="text" id="lastName"  th:field="*{}">
+<form th:action="@{/addStudData}" th:object="${student}" method="post" >
+  <h1>___Student Form___</h1><hr>
+  <label for="firstName" >First Name</label>
+  <input type="text" id="firstName"  th:field="*{f_Name}"></br></br>
 
-     <label for="email" >Low Fifty Week</label>
-     <input type="email" id="email"   th:field="*{}">
+  <label for="lastName" >Last Name</label>
+  <input type="text" id="lastName"  th:field="*{l_Name}"></br></br>
 
-     <button type="submit" class="btn btn-primary">Submit</button>
-   </form>
-</div>
+  <label for="email" >Email</label>
+  <input type="email" id="email"   th:field="*{email}"></br><hr>
+
+  <button type="submit" class="btn btn-primary" >Submit</button>
+</form>
+
 </body>
 </html>

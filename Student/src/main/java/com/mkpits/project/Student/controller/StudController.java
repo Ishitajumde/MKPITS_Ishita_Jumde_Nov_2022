@@ -15,18 +15,24 @@ import java.util.List;
 public class StudController {
    @Autowired
     public StudentService studentService;
-   @GetMapping("/studentDetail")
-   public String getDetails(Model model){
-       List<StudentDto> studentDtoList = studentService.getData();
-       model.addAttribute("studentDetails",studentDtoList);
-       return "studentDetails";
-   }
-   @GetMapping("/studentForm")
-   public String studentForm(Model model){
-       StudentDto studentDto = new StudentDto();
-       model.addAttribute("student",studentDto);
-     return "studentForm";
-   }
+    @GetMapping("/studentDetails")
+    public String getDetails(Model model) {
+        List<StudentDto> studentDtoList = studentService.getData();
+        model.addAttribute("studentDetails", studentDtoList);
+        return "studentDetails";
+    }
 
+    @GetMapping("/studentForm")
+    public String studentForm(Model model){
+        StudentDto studentDto = new StudentDto();
+        model.addAttribute("student",studentDto);
+        return "studentForm";
+    }
+
+    @PostMapping("/addStudData")
+    public String studData(@ModelAttribute ("addData") StudentDto studentDto){
+        studentService.addData(studentDto);
+        return "redirect:/studentDetails";
+    }
    
 }

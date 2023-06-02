@@ -22,12 +22,12 @@ public class StudentServiceServiceImpl implements StudentService {
     @Override
     public List<StudentDto> getData() {
         List<StudentDto> studentDtoList = new ArrayList<>();
-        List<StudentEntity> studentEntityList = studentRepo.findAll();
-        studentEntityList.stream().forEach(studentEntity -> {
+        List<TeacherEntity> teacherEntityList = teacherRepo.findAll();
+        teacherEntityList.stream().forEach(teacherEntity -> {
             StudentDto studentDto = StudentDto.builder()
-                    .f_Name(studentEntity.getFirstName())
-                    .l_Name(studentEntity.getLastName())
-                    .email(studentEntity.getEmail())
+                    .f_Name(teacherEntity.getFName())
+                    .l_Name(teacherEntity.getLName())
+                    .email(teacherEntity.getEmail())
                     .build();
             studentDtoList.add(studentDto);
         });
@@ -36,6 +36,7 @@ public class StudentServiceServiceImpl implements StudentService {
     @Override
     public List<StudentDto> addData(StudentDto studentDto) {
         List<StudentDto> studentDtoList = new ArrayList<>();
+        //add data in h2
         StudentEntity studentEntity = StudentEntity.builder()
                 .firstName(studentDto.getL_Name())
                 .lastName(studentDto.getL_Name())
@@ -44,6 +45,18 @@ public class StudentServiceServiceImpl implements StudentService {
         StudentEntity afterSave = studentRepo.save(studentEntity);
         studentDto.setId(afterSave.getId());
         studentDtoList.add(studentDto);
+
+        //add data in sql
+        TeacherEntity teacherEntity = TeacherEntity.builder()
+                .fName(studentDto.getF_Name())
+                .lName(studentDto.getL_Name())
+                .email(studentDto.getEmail())
+                .build();
+
+        TeacherEntity afterSave1 = teacherRepo.save(teacherEntity);
+        studentDto.setId(afterSave1.getId());
+        studentDtoList.add(studentDto);
+
         return studentDtoList;
     }
 
