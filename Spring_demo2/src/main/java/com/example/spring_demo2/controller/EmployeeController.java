@@ -29,7 +29,7 @@ public class EmployeeController {
    }
    @PostMapping("/saveEmployee")
    public String saveEmployee(@ModelAttribute("employee") Employee employee){
-        //save employee to databse
+        //save employee to database
        employeeService.saveEmployee(employee);
        return "redirect:/";
     }
