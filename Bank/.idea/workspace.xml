@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Bank:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b764bfa0-0c94-4306-9929-16dbe1199b66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/UserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/comparable/prog/MainComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/comparable/prog/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/constructor/refrence/InfoStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/constructor/refrence/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/constructor/refrence/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/menudriven/prog/using/lamdaexpression/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/menudriven/prog/using/lamdaexpression/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/menudriven/prog/using/lamdaexpression/PrintEvenNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/menudriven/prog/using/lamdaexpression/SwitchCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/method/refrence/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/method/refrence/MyClassNonStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/method/refrence/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/method/refrence/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/java/com/example/bankmanagementsystem/Master.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/registrartion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/registration.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VKrJCwxK7Zi8O4IUBlefxuVNim" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.61" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.61" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Bank:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Bank_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="15fe80ee-06b2-4a7b-96ff-74c05f5712b8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Bank:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b764bfa0-0c94-4306-9929-16dbe1199b66" name="Changes" comment="" />
+      <created>1694595540400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694595540400</updated>
+      <workItem from="1694595541899" duration="9086000" />
+      <workItem from="1694607808432" duration="1761000" />
+      <workItem from="1694618675314" duration="570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
