@@ -11,14 +11,16 @@
     <title>Login jsp page</title>
 </head>
 <body>
+
 <jsp:useBean id="log" class="com.example.bank.UserAccount" scope="application" />
 
 <jsp:setProperty name="log" property="name" param="txtName"/>
 <jsp:setProperty name="log" property="password" param="txtPass" />
 <%
+    session.setAttribute("Id",log.getName());
    int a=log.check();
    if(a==0){
-       response.sendRedirect("dashboard.html");
+       response.sendRedirect("dashboard.jsp");
    }
    else{
        response.sendRedirect("error.html");

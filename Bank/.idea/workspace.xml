@@ -10,54 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b764bfa0-0c94-4306-9929-16dbe1199b66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/UserAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registration.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/comparable/prog/MainComp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/comparable/prog/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/constructor/refrence/InfoStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/constructor/refrence/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/constructor/refrence/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/menudriven/prog/using/lamdaexpression/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/menudriven/prog/using/lamdaexpression/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/menudriven/prog/using/lamdaexpression/PrintEvenNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/menudriven/prog/using/lamdaexpression/SwitchCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/method/refrence/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/method/refrence/MyClassNonStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/method/refrence/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/method/refrence/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/java/com/example/bankmanagementsystem/Master.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/registrartion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BankManagementSystem/src/main/webapp/registration.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/ArrayProb/ProblemArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/UsingVector/ProblemVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/treeproblems/TreeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/Transactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/Transactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bank/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/bank/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/deposit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/deposit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/depositbean.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/depositbean.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/loginjsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/loginjsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/transfer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/transfer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/transfer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/transfer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/withdraw.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/withdraw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/withdraw.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/withdraw.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StreamDemo/out/production/StreamDemo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamDemo/out/production/StreamDemo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StreamDemo/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StreamDemo/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/comparator/proj/CompRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/comparator/proj/CompRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/comparator/proj/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/comparator/proj/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/set/prog/ExampleOfSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/set/prog/ExampleOfSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/set/prog/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lamdaexpdemo/src/main/java/set/prog/ListExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -105,6 +80,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/ishita git/MKPITS_Ishita_Jumde_Nov_2022/Bank/src/main/java&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -163,7 +139,17 @@
       <updated>1694595540400</updated>
       <workItem from="1694595541899" duration="9086000" />
       <workItem from="1694607808432" duration="1761000" />
-      <workItem from="1694618675314" duration="570000" />
+      <workItem from="1694618675314" duration="798000" />
+      <workItem from="1694671476927" duration="3214000" />
+      <workItem from="1694762682233" duration="1812000" />
+      <workItem from="1694767354510" duration="6421000" />
+      <workItem from="1694790290947" duration="2159000" />
+      <workItem from="1694861964021" duration="1209000" />
+      <workItem from="1694968621560" duration="2051000" />
+      <workItem from="1695013123665" duration="2315000" />
+      <workItem from="1695201931496" duration="8937000" />
+      <workItem from="1695223728603" duration="10061000" />
+      <workItem from="1695274343212" duration="14346000" />
     </task>
     <servers />
   </component>

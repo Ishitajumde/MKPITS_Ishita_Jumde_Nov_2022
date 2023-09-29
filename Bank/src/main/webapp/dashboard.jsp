@@ -13,8 +13,10 @@
 <h1>Welcome to MyBank<%=" "+s%></h1><br>
 <br><br>
 <h4>
-  <a href="deposit.jsp">Deposit</a>
-    <a href="BalanceSlip.html">Balance Slip</a></h4>
+  <a href="deposit.html">Deposit</a>
+    <a href="withdraw.html">Withdraw</a>
+    <a href="transfer.html">Transfer</a>
+    <a href="balanceSheet.jsp">Balance Slip</a></h4>
 </center>
 
 </body>

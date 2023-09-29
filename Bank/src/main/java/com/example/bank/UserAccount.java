@@ -104,5 +104,22 @@ public class UserAccount implements Serializable {
         }
         return result;
     }
+
+
+    public double totalAmount() throws SQLException {
+
+        ps= con.prepareStatement("select balance from accountinfo where name=?");
+        ps.setString(1,name);
+
+        ResultSet r1 = ps.executeQuery();
+        if(r1.next())
+        {
+           return r1.getDouble(1);
+        }
+        else
+            return 0;
+    }
+
+
 }
 

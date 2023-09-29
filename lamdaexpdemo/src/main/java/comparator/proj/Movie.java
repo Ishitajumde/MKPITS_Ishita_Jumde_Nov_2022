@@ -1,4 +1,4 @@
-package comparable.prog;
+package comparator.proj;
 
 public class Movie implements Comparable<Movie>{
    private String movieName;

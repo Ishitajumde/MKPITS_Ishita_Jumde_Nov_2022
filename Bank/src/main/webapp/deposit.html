@@ -6,19 +6,10 @@
 </head>
 <body>
 <h3>Add Money to BankAccount</h3>
-<% String s1=(String) session.getAttribute("Id");%>
-<h1>Account Holder Name<%=" "+s1%></h1><br>
+
 <form method="post" action="depositbean.jsp">
-
-  UserId:<input type="text" name="<%=s1%>">
-  Transaction Date:<input type="date" name="txtDate"><br><br>
     Amount:<input type="text" name="txtAmount"><br><br>
-    Transaction Type:<select name="type">
-         <option>Deposit</option>
-         <option>Withdrawal</option>
-    </select><br><br>
-
-   <input type="submit" name="Deposit">
+    <input type="submit" name="Deposit">
 </form>
 </body>
 </html>
